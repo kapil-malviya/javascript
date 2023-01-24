@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Circle </title>
+
+</head>
+<body>
+<input id="cr1" type="" name="" placeholder="Enter radius of circle" >
+<button onclick="crarea()">Area of Circle</button>
+
+<br><br>
+
+<input id="cr2" type="" name="" placeholder="Enter radius of circle" >
+<button onclick="crperi()">Perimeter of Circle</button>
+
+<script type="text/javascript">
+function crarea(){
+let cl1=parseFloat(document.getElementById("cr1").value);
+r1=cl1*cl1*3.14;
+document.write(r1)
+}
+
+function crperi(){
+let cl2=parseFloat(document.getElementById("cr2").value);
+r2=cl2*3.14*2;
+document.write(r2)
+
+}
+</script>
+
+
+
+
+
+</body>
+</html>
