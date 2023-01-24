@@ -3,16 +3,22 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>js*</title>
-<script type="text/javascript" src="js03.js"></script>
+	<title>local global</title>
 <script type="text/javascript">
+ var data=25;
+ function a(){
+              document.write(data,"<br>");
+              }
+function b(){
+             document.write(data);
+             }
 
-  document.write("output is = "+c);
+a();
+b();
 
 </script>
-
 </head>
 <body>
-<br>//(floor division) wont work in JS
+
 </body>
 </html>
