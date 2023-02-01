@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>alert on click</title>
+</head>
+<body>
+
+<div id="a" style="border:1px solid; margin:2px;" onmouseenter="aa()" onmouseleave="aaa()"> this is line one of the program </div>
+<div id="b" style="border:1px solid; margin:2px;" onmouseenter="bb()" onmouseleave="bbb()"> this is line two of this program </div>
+
+<input id="i1" type="text" name="" value="">
+<button onclick="cc()">click me</button>
+
+
+<script type="text/javascript">
+function aa(){
+document.getElementById("a").style.backgroundColor="blue"
+}
+function aaa(){
+document.getElementById("a").style.backgroundColor="lightgreen"
+}
+function bb(){
+document.getElementById("b").style.color="red"
+}
+function bbb(){
+document.getElementById("b").style.color="blue"
+}
+function cc(){
+var name = document.getElementById("i1").value
+if (name==""){
+	alert('Please enter name ')}
+else{
+	alert('Welcome to page',+name);
+}
+}
+
+
+</script>
+
+</body>
+</html>
