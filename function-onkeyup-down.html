@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> onkeyup/onkeydown fun </title>
+<style type="text/css">
+div{border: 2px solid green;}
+
+</style>
+</head>
+<body>
+enter any value : <input type="search" name="" id="q1" onkeyup="fun1()">
+<div id="a1">
+
+</div>
+
+
+
+<script type="text/javascript">
+function fun1(){
+let name=document.getElementById('q1').value
+	document.getElementById('a1').innerHTML=name;
+}
+
+
+
+</script>
+
+<h3>keyup/keydown same hi hai</h3>
+</body>
+</html>
